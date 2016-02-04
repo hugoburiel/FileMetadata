@@ -1,0 +1,248 @@
+[
+  {
+      "id" : "CopyFilePath",
+      "caption" : "Copy File Path",
+      "command" : "copy_file_metadata",
+      "args": {
+        "meta": "file_path",
+        "descriptor" : "File path"
+      }
+  },
+  {
+      "id" : "CopyFileName",
+      "caption" : "Copy File Name",
+      "command" : "copy_file_metadata",
+      "args": {
+        "meta": "file_name",
+        "descriptor" : "File name"
+      }
+  },
+  {
+      "id" : "FileMetadata",
+      "caption" : "File Metadata",
+      "children" :
+      [
+        {
+            "id" : "CopyFileNameWithoutExtension",
+            "caption" : "Copy File Name (without Extension)",
+            "command" : "copy_file_metadata",
+            "args": {
+              "meta": "file_name_without_extension",
+              "descriptor" : "File name without extension"
+            }
+        },
+        {
+            "id" : "CopyFileBaseName",
+            "caption" : "Copy Basename (file path, no extension)",
+            "command" : "copy_file_metadata",
+            "args": {
+              "meta": "basename",
+              "descriptor" : "Basename"
+            }
+        },
+        {
+            "id" : "CopyParentDirName",
+            "caption" : "Copy Parent Directory Name",
+            "command" : "copy_file_metadata",
+            "args": {
+              "meta": "parent_dir_name",
+              "descriptor" : "File's parent directory name"
+            }
+        },
+        {
+            "id" : "CopyParentDirPath",
+            "caption" : "Copy Parent Directory Path",
+            "command" : "copy_file_metadata",
+            "args": {
+              "meta": "parent_dir_path",
+              "descriptor" : "File's parent directory path"
+            }
+        },
+        {
+            "id" : "CopyFileSize",
+            "caption" : "Copy File Size (bytes)",
+            "command" : "copy_file_metadata",
+            "args": {
+              "meta": "file_size_bytes",
+              "descriptor" : "File size (bytes)"
+            }
+        },
+        {
+            "id" : "CopyFileSize",
+            "caption" : "Copy File Size (KiB)",
+            "command" : "copy_file_metadata",
+            "args": {
+              "meta": "file_size_KiB",
+              "descriptor" : "File size (in KiB)"
+            }
+        },
+        {
+            "id" : "CopyFileExtension",
+            "caption" : "Copy File Extension",
+            "command" : "copy_file_metadata",
+            "args": {
+              "meta": "file_extension",
+              "descriptor" : "File extension"
+            }
+        },
+        {
+            "id" : "CopyFileExtension",
+            "caption" : "Copy File Extension (no dot)",
+            "command" : "copy_file_metadata",
+            "args": {
+              "meta": "file_extension_no_dot",
+              "descriptor" : "File extension (no dot)"
+            }
+        },
+        {
+            "id" : "CopyFileCreationDateTime",
+            "caption" : "Copy File Creation",
+            "children" :
+            [
+              {
+                "id" : "CopyFileCreationDateTime",
+                "caption" : "Copy File Creation DateTime",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_creation_datetime",
+                  "descriptor" : "File creation datetime",
+                }
+              },
+              {
+                "id" : "CopyFileCreationDateTimeLocale",
+                "caption" : "Copy File Creation DateTime (Locale)",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_creation_datetime_locale",
+                  "descriptor" : "File creation datetime (locale)",
+                }
+              },
+              {
+                "id" : "CopyFileCreationDateTimeLocale12H",
+                "caption" : "Copy File Creation DateTime (Locale, 12H)",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_creation_datetime_locale_12h",
+                  "descriptor" : "File creation datetime (locale, 12H)",
+                }
+              },
+              {
+                "id" : "CopyFileCreationDate",
+                "caption" : "Copy File Creation Date",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_creation_date",
+                  "descriptor" : "File creation date",
+                }
+              },
+              {
+                "id" : "CopyFileCreationDateLocale",
+                "caption" : "Copy File Creation Date (Locale)",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_creation_date_locale",
+                  "descriptor" : "File creation date (locale)",
+                }
+              },
+              {
+                "id" : "CopyFileCreationTime",
+                "caption" : "Copy File Creation Time",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_creation_time",
+                  "descriptor" : "File creation time",
+                }
+              },
+//              {
+//                "id" : "CopyFileCreationTimeLocale",
+//                "caption" : "Copy File Creation Time (Locale)",
+//                "command" : "copy_file_metadata",
+//                "args": {
+//                  "meta": "file_creation_time_locale",
+//                  "descriptor" : "File creation time (locale)",
+//                }
+//              },
+              {
+                "id" : "CopyFileCreationTime12H",
+                "caption" : "Copy File Creation Time (12H)",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_creation_time_12h",
+                  "descriptor" : "File creation time (12H)",
+                }
+              }
+            ]
+        },
+        {
+            "id" : "CopyFileLastModifyDateTime",
+            "caption" : "Copy File Last Modify",
+            "children" :
+            [
+              {
+                "id" : "CopyFileLastModifyDateTime",
+                "caption" : "Copy File Last Modify DateTime",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_last_modify_datetime",
+                  "descriptor" : "File last modify datetime",
+                }
+              },
+              {
+                "id" : "CopyFileLastModifyDateTimeLocale",
+                "caption" : "Copy File Last Modify DateTime (Locale)",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_last_modify_datetime_locale",
+                  "descriptor" : "File last modify datetime (locale)",
+                }
+              },
+              {
+                "id" : "CopyFileLastModifyDateTimeLocale12H",
+                "caption" : "Copy File Last Modify DateTime (Locale, 12H)",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_last_modify_datetime_locale_12h",
+                  "descriptor" : "File last modify datetime (locale, 12H)",
+                }
+              },
+              {
+                "id" : "CopyFileLastModifyDate",
+                "caption" : "Copy File Last Modify Date",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_last_modify_date",
+                  "descriptor" : "File last modify date",
+                }
+              },
+              {
+                "id" : "CopyFileLastModifyDateLocale",
+                "caption" : "Copy File Last Modify Date (Locale)",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_last_modify_date_locale",
+                  "descriptor" : "File last modify date (locale)",
+                }
+              },
+              {
+                "id" : "CopyFileLastModifyTime",
+                "caption" : "Copy File Last Modify Time",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_last_modify_time",
+                  "descriptor" : "File last modify time",
+                }
+              },
+              {
+                "id" : "CopyFileLastModifyTime12H",
+                "caption" : "Copy File Last Modify Time (12H)",
+                "command" : "copy_file_metadata",
+                "args": {
+                  "meta": "file_last_modify_time_12h",
+                  "descriptor" : "File last modify time (12H)",
+                }
+              }
+            ]
+        }
+      ]
+    }
+]
